@@ -7,17 +7,19 @@ class Solution {
         m=m.replace("G#","g");
         m=m.replace("C#","c");
         m=m.replace("A#","a");
-
-
         String answer="(None)";
         int len=0;
 
         for(int i=0; i<musicinfos.length; i++){
             String []s1=musicinfos[i].split(",");
             int an=0;
+
+
             int hour = Integer.parseInt(s1[1].split(":")[0]) - Integer.parseInt(s1[0].split(":")[0]);
             int minute = Integer.parseInt(s1[1].split(":")[1]) - Integer.parseInt(s1[0].split(":")[1]);
             an = hour * 60 + minute;
+
+
 
             for(int j=2; j<s1.length; j++){
                 s1[j]=s1[j].replace("A#","a");
@@ -36,6 +38,8 @@ class Solution {
                 s+=s1[3].charAt(j);
             }
 
+
+
             if(!s.contains(m)){
                 continue;
             }
@@ -44,6 +48,7 @@ class Solution {
                 len = an;
             }
         }
+
 
         return answer;
     }
