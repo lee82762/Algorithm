@@ -12,7 +12,6 @@ class Solution2 {
 
           ArrayList<String>st=new ArrayList<>();
           String s1[]=s.split("/");
-
           Arrays.sort(s1,(o1, o2) -> {return Integer.compare(o1.length(),o2.length());});
 
 
