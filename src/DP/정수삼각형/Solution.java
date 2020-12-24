@@ -16,7 +16,7 @@ class Solution {
 
             }
         }
-
+        
         int answer=0;
         for(int i=triangle.length-1; i<triangle.length; i++){
             answer=triangle[i][0];
