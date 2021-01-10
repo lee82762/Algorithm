@@ -1,5 +1,6 @@
 package 완전탐색.모의고사;
 import java.util.ArrayList;
+
 class Solution {
     public int[] solution(int[] answer) {
 
