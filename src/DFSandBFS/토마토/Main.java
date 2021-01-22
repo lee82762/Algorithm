@@ -20,7 +20,7 @@ public class Main {
         M=sc.nextInt();
 
         map=new int[1000][1000];
-        
+
         for(int i = 0; i < M; i++) {
             for(int j = 0; j < N; j++) {
                 map[i][j] = sc.nextInt();
