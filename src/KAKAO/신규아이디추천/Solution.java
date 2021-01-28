@@ -1,6 +1,6 @@
 package KAKAO.신규아이디추천;
 
-//c[i]>='0'&&c[i]<='9' 을  c[i]>='1'&&c[i]<='9'로하는 어이없는 실수는 하지말자!!
+//c[i]>='0'&&c[i]<='9' 을  c[i]>='1'&&c[i]<='9'로하는 어이없는 실수는 하지말자!!!
 
 class Solution {
     public String solution(String new_id) {
