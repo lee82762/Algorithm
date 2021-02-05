@@ -1,7 +1,7 @@
 package 연습문제.럭키스트레이트;
 
 import java.util.Scanner;
-
+//문자열
 public class Main {
     static  int N;
     public static void main(String arg[]){
