@@ -26,8 +26,6 @@ public class Main {
         for(int i=0; i<N; i++){
             P[i]=A[i];
         }
-
-
         Arrays.sort(P);
 
         for(int i=0; i<N; i++){
@@ -39,6 +37,7 @@ public class Main {
                 }
             }
         }
+
         for(int i=0; i<N; i++){
             System.out.print(B[i]+" ");
         }
