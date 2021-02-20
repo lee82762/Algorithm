@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Scanner;
-
+//해쉬맵으로 구현
 public class Main{
     static int  N;
 
