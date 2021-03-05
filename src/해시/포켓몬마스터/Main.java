@@ -3,7 +3,7 @@ package 해시.포켓몬마스터;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
-
+// Hashmap사용을 통해 코드 짜기
 public class Main {
 
     static int  A;
