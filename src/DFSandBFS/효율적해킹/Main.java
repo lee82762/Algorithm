@@ -3,6 +3,7 @@ package DFSandBFS.효율적해킹;
 import java.util.Scanner;
 
 //DFS 메모리 초과 해결하기
+//이유:재귀사용
 public class Main {
     static int N;
     static int M;
