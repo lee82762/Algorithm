@@ -92,7 +92,7 @@ public class Main {
 
                         qx.add(x2);
                         qy.add(y2);
-                        
+
                         visit[x2][y2] = true;
 
 
