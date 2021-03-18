@@ -4,6 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
+//3차원 배열 생각하기
 public class Retry {
     static int max=987654321;
 
