@@ -1,7 +1,7 @@
 package 다익스트라.특정거리의도시찾기;
 
 import java.util.*;
-
+//다익스트라 ,bfs 구현
 public class Main {
     static int cnt=0;
     static int max=0;
