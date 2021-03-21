@@ -3,7 +3,7 @@ package 다익스트라.숨바꼭질;
 import java.util.*;
 
 //다익스트라 알고리즘 사용
-//메모리초과 해결
+//메모리초과 해결!
 public class Main {
     static int cnt=0;
     static int max=0;
