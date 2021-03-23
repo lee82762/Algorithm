@@ -11,12 +11,10 @@ public class Main {
     static class Pair{
         int idx;
         int dis;
-
         public Pair(int idx,int dis){
             this.idx=idx;
             this.dis=dis;
         }
-
     }
 
     public static void main(String[] args) {
