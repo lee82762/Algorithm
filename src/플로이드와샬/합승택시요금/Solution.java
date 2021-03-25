@@ -2,7 +2,7 @@ package 플로이드와샬.합승택시요금;
 
 import java.util.*;
 class Solution{
-    
+
     static int dp[][];
     public int solution(int n, int s, int a, int b, int[][] fares) {
 
