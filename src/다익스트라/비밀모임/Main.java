@@ -88,6 +88,7 @@ public class Main {
             Pair p1=queue.poll();
             int x1=p1.idx;
             int y1=p1.dis;
+
             for(Pair next:dp[x1]){
                 if(d[next.idx]>d[x1]+next.dis){
                     d[next.idx]=d[x1]+next.dis;
