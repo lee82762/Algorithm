@@ -2,7 +2,7 @@ package DFSandBFS.숫자고르기;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-
+//dfs 생각잘하기
 public class Main {
     static int N;
     static int result;
