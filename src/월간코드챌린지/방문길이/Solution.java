@@ -1,6 +1,7 @@
 package 월간코드챌린지.방문길이;
 
 class Solution {
+    //4차원 boolean배열을 사용
     public int solution(String dirs) {
 
 
