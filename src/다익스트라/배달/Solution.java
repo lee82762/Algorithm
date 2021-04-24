@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.PriorityQueue;
+
 class Solution {
     static int d[];
     static ArrayList<Pair>dp[];
