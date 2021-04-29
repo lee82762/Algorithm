@@ -3,6 +3,8 @@ package DFSandBFS.게임맵최단거리;
 import java.util.LinkedList;
 import java.util.Queue;
 class Solution {
+
+    //bfs 사용 ->최단거리
     static boolean visit[][];
     static int dx[]={1,-1,0,0};
     static int dy[]={0,0,1,-1};
