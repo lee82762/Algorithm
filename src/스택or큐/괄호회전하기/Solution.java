@@ -1,6 +1,7 @@
 package 스택or큐.괄호회전하기;
 
 import java.util.Stack;
+//괄호는 스택으로 해결
 class Solution {
     public int solution(String s) {
         int answer=0;
