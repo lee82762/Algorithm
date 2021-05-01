@@ -6,6 +6,7 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 class Solution {
+    //간선나오는 문제 가중치 문제 다이스트라
     static int d[];
     static ArrayList<Pair>dp[];
     static class Pair{
