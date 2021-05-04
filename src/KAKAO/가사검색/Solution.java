@@ -1,5 +1,6 @@
 package KAKAO.가사검색;
 //효율성1,2,3 실패
+//tree형식으로 풀어보기
 class Solution {
     public int[] solution(String[] words, String[] queries) {
         int answer[]=new int[queries.length];
