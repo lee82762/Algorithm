@@ -1,7 +1,7 @@
 package DFSandBFS.쿼드트리;
 
 import java.util.Scanner;
-
+//수정
 public class Main {
     static int N;
     static int len=0;
