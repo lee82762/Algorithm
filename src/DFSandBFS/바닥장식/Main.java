@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main{
+public class Main {
     static int N;
     static int M;
     static String arr[][];
@@ -29,7 +29,9 @@ public class Main{
         for(int i=0; i<N; i++){
             for(int j=0; j<M; j++){
                 if(visit[i][j]==false){
-
+                    System.out.println(i);
+                    System.out.println(j);
+                    System.out.println(" ");
                     bfs(i,j);
                     answer++;
                 }
@@ -51,7 +53,8 @@ public class Main{
         while (!qx.isEmpty()&&!qy.isEmpty()){
             int x1=qx.poll();
             int y1=qy.poll();
-
+            System.out.println(x1);
+            System.out.println(y1);
 
             if(arr[x1][y1].equals("-")){
                 if(x1>=0&&x1<N&&y1+1>=0&&y1+1<M){
