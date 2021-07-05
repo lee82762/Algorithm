@@ -1,6 +1,8 @@
 package 네이버웹툰.문제3번;
 
 public class Solution {
+    //replace 사용하면 시간초과
+    //dfs 사용
     static int answer=0;
 
     public int solution(String s, String t) {
