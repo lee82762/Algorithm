@@ -44,4 +44,5 @@ class Solution {
             this.right = right;
         }
     }
+
 }
