@@ -47,7 +47,7 @@ class Solution {
                 wincount[i]=0;
             }
             else {
-                wincount[i] = ((double) cnt / (double) cnt1) * 100;
+                wincount[i] = ((double) cnt / (double) cnt1) * 1000000;
                 wincount[i] = Double.parseDouble(form.format(wincount[i]));
             }
             heavys[i]=heavy;
