@@ -33,7 +33,7 @@ public class Main{
 
         }
         ArrayList<String>s1=new ArrayList<>(map.keySet());
-      
+
         Collections.sort(s1,(o1, o2) -> map.get(o1).compareTo(map.get(o2)));
 
         int answer[]=new int[s1.size()];
