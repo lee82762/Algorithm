@@ -20,5 +20,5 @@ class Other {
         }
         return answer;
     }
-    
+
 }
