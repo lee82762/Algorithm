@@ -21,7 +21,7 @@ public class Main {
         }
 
         Arrays.sort(cards);
-        int M = Integer.parseInt(br.readLine()); 
+        int M = Integer.parseInt(br.readLine());
 
         StringBuilder sb = new StringBuilder();
         st = new StringTokenizer(br.readLine());
