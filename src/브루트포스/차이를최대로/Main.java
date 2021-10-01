@@ -9,6 +9,8 @@ public class Main {
     static int output[];
     static int max=0;
     public static void main(String argp[]){
+
+        
         Scanner sc=new Scanner(System.in);
         N=sc.nextInt();
 
