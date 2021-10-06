@@ -3,6 +3,7 @@ package DFSandBFS.전력망을둘로나누기;
 import java.util.LinkedList;
 import java.util.Queue;
 class Solution {
+    //bfs 로 계산
     public int solution(int n, int[][] wires) {
         int answer = Integer.MAX_VALUE;
         int map[][]=new int[n][n];
