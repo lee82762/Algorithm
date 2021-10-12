@@ -1,7 +1,7 @@
 package DFSandBFS.토마토1;
 
 import java.util.*;
-
+//다시풀기
 public class Main {
     static int X;
     static int Y;
