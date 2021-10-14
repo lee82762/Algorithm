@@ -1,7 +1,7 @@
 package 비트마스킹.도영이가만든맛있는음식;
 
 import java.util.Scanner;
-
+//비트마스킹 확인하기
 public class Main {
     static int SB[][];
     static int N;
