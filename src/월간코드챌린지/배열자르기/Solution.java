@@ -3,7 +3,7 @@ package 월간코드챌린지.배열자르기;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
-//메모리 초과
+//메모리 초과 이분탐색
 class Solution {
     static int dx[]={1,-1,0,0,1,1,-1,-1};
     static int dy[]={0,0,1,-1,1,-1,1,-1};
