@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     static int R;
-
+//해결
     public static void main(String arg[]) {
         Scanner sc = new Scanner(System.in);
 
