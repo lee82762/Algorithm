@@ -3,6 +3,7 @@ package KAKAO.카카오프렌즈컬러링;
 import java.util.LinkedList;
 import java.util.Queue;
 class Solution {
+    //bfs
     static boolean visit[][];
     static int dx[]={1,-1,0,0};
     static int dy[]={0,0,1,-1};
