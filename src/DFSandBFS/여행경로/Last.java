@@ -2,7 +2,8 @@ package DFSandBFS.여행경로;
 
 import java.util.Arrays;
 import java.util.*;
-class Last {
+class Last
+{
     static boolean visit[];
     public String[] solution(String[][] tikects) {
         visit=new boolean[tikects.length];
