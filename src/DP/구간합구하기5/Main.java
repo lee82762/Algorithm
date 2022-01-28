@@ -3,6 +3,7 @@ package DP.구간합구하기5;
 import java.util.Scanner;
 
 public class Main {
+    //dp 문제
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N=sc.nextInt();
